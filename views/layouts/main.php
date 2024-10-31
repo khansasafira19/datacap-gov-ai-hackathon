@@ -102,10 +102,18 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                         </div> -->
                         <div class="d-flex">
                             <a href="<?= Yii::$app->request->baseUrl ?>/site/makeyourown" class="btn-get-started">Buat Visualisasi</a>
-                            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+                            <a href="https://youtu.be/-cw1OyScXMI" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Lihat Tutorial</span></a>
+                        </div>
+                        <br />
+                        <div class="video-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
+                            <iframe
+                                src="https://www.youtube.com/embed/-cw1OyScXMI?autoplay=1&mute=1&controls=0&showinfo=0"
+                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                                frameborder="0"
+                                allow="autoplay; encrypted-media"
+                                allowfullscreen></iframe>
                         </div>
                     </div>
-
                 </div>
             </div>
 
